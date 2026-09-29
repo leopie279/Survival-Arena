@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="armor" x2="0" y2="1"><stop stop-color="#f3e8ff"/><stop offset=".45" stop-color="#c084fc"/><stop offset="1" stop-color="#6b21a8"/></linearGradient>
+    <linearGradient id="wing" x2="1" y2="1"><stop stop-color="#e9d5ff"/><stop offset="1" stop-color="#9333ea"/></linearGradient>
+     <filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M40 4 48 23 68 35 61 57 49 54 40 74 31 54 19 57 12 35 32 23Z" fill="#2e1065" stroke="#d8b4fe" stroke-width="2.5"/>
+  <path d="m32 30-22 9 7 12 15-4 8 17 8-17 15 4 7-12-22-9-8-13Z" fill="url(#wing)" stroke="#faf5ff" stroke-width="1.5"/>
+  <path d="m40 12 8 20-8 25-8-25Z" fill="url(#armor)" stroke="#faf5ff" stroke-width="1.5"/>
+  <path d="m34 30 6-7 6 7-6 5Z" fill="#f5d0fe" filter="url(#glow)"/>
+  <path d="M18 45h11m22 0h11M40 54v9" fill="none" stroke="#f3e8ff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="40" cy="40" r="3" fill="#fff"/>
+</svg>

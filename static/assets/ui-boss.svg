@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <path d="M20 4 35 12v16l-15 8L5 28V12Z" fill="#2a1718" stroke="#ff9b7b" stroke-width="1.5"/>
+  <circle cx="20" cy="20" r="10" fill="none" stroke="#ff735f" stroke-width="2"/>
+  <circle cx="20" cy="20" r="4" fill="#ffe3a3"><animate attributeName="r" values="3;5;3" dur="1.2s" repeatCount="indefinite"/></circle>
+  <path d="M20 7v4m0 18v4M7 20h4m18 0h4" stroke="#ffe3a3" stroke-width="1.5"/>
+</svg>

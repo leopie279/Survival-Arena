@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 20">
+  <defs><linearGradient id="l"><stop stop-color="#a4e57e" stop-opacity="0"/><stop offset=".55" stop-color="#a4e57e"/><stop offset="1" stop-color="#fff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <path d="M2 10 49 3 62 10 49 17Z" fill="url(#l)" stroke="#ecfccb" stroke-width="1.2" filter="url(#g)"/>
+  <path d="M8 10H55" stroke="#fff" stroke-width="2" stroke-linecap="round"><animate attributeName="stroke-dasharray" values="4 6;12 4;4 6" dur=".55s" repeatCount="indefinite"/></path>
+  <circle cx="51" cy="10" r="2.5" fill="#fff"><animate attributeName="r" values="2;3.5;2" dur=".45s" repeatCount="indefinite"/></circle>
+</svg>

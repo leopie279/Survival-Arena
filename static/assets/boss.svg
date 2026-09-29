@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="core" cx="38%" cy="32%"><stop stop-color="#f5d0fe"/><stop offset=".35" stop-color="#c084fc"/><stop offset="1" stop-color="#581c87"/></radialGradient>
+    <linearGradient id="armor" x2="0" y2="1"><stop stop-color="#e9d5ff"/><stop offset=".45" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b0764"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="64" cy="64" r="59" fill="#160b2b" stroke="#c084fc" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="m64 5 12 20 24-8-2 26 23 11-17 19 8 25-26-2-14 22-14-22-26 2 8-25-17-19 23-11-2-26 24 8Z" fill="#4c1d95" stroke="#e9d5ff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m64 18 10 21 20-9-3 23 19 11-17 16 6 20-23-3-12 18-12-18-23 3 6-20-17-16 19-11-3-23 20 9Z" fill="url(#armor)" stroke="#c4b5fd" stroke-width="2"/>
+  <path d="m64 31 21 15-7 29H50l-7-29Z" fill="#2e1065" stroke="#e9d5ff" stroke-width="2"/>
+  <path d="m49 51 15-9 15 9-4 18H53Z" fill="url(#core)" stroke="#f5d0fe" stroke-width="2" filter="url(#glow)"/>
+  <path d="m56 55 8-5 8 5-8 9Z" fill="#fff"/>
+  <path d="M32 34 21 27m75 7 11-7M32 94l-11 7m75-7 11 7" stroke="#f0abfc" stroke-width="4" stroke-linecap="round"/>
+</svg>
